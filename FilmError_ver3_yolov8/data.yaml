@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['back', 'back_2', 'bottleneck', 'front']
+
+roboflow:
+  workspace: trnh-gia-huy
+  project: filmerror_ver3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trnh-gia-huy/filmerror_ver3/dataset/2
